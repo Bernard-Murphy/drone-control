@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#root {
+    height: 100%;
+}
+
+.sticks {
+    height: 10rem;
+    width: 10rem;
+    background-image: url('/coordinates.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.controller-dots {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 0.32rem;
+    width: 0.32rem;
+    border-radius: 50%;
+}
